@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.text-color-h1 {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.text-color-p {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* commone styles */
+.display-flex{
+        display: flex;
+}
+
+.color1{
+    color: rgba(0, 0, 0, 0.5);
+}
+.text-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+.color3{
+    color:rgba(233, 90, 8, 1) ;
+}
+.max-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.top120{
+    margin-bottom: 120px; 
+}
+
+
+
+            /* nav-ber-styles */
+.nav-ber{
+      justify-content: space-between;
+}
+
+.list-items,.nav-item a{
+    list-style: none;
+    color: rgb(rgba(102, 100, 100, 0.484));
+}
+.list-items{
+    gap:50px;
+}
+
+.nav-link{
+    text-decoration: none;
+    
+}
+
+/* header section */
+.banner {
+    align-items: center;
+}
+
+.header-title{
+    max-width: 570px;
+    margin: px;
+}
+.header-text{
+    font-size: 2.9rem;
+    font-weight: bold;
+}
+
+.header-p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
