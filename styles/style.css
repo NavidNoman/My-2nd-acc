@@ -1,13 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 .text-style-h1 {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: auto;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 .text-style-p {
   font-family: "Inter", sans-serif;
@@ -17,140 +15,214 @@
 }
 
 /* commone styles */
-.display-flex{
-        display: flex;
+.display-flex {
+  display: flex;
 }
 
-.color1{
-    color: rgba(0, 0, 0, 0.5);
+.color1 {
+  color: rgba(0, 0, 0, 0.5);
 }
-.text-color{
-    color: rgba(0, 0, 0, 0.5);
+.text-color {
+  color: rgba(0, 0, 0, 0.5);
 }
-.color3{
-    color:rgba(233, 90, 8, 1) ;
+.color3 {
+  color: rgba(233, 90, 8, 1);
 }
-.max-width{
-    max-width: 1140px;
-    margin: 0 auto;
+.max-width {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-.btn{
-    border: 2px solid salmon;
-    padding: 20px 50px;
-    width: 270px;
-    background-color:rgba(233, 90, 8, 1) ;
-    color: white;
-    margin-top: 1.5rem;
+.btn {
+  border: 2px solid salmon;
+  padding: 20px 50px;
+  width: 270px;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  margin-top: 1.5rem;
 }
-.top120{
-    margin-bottom: 120px; 
-}
-
-
-
-            /* nav-ber-styles */
-.nav-ber{
-      justify-content: space-between;
+.top120 {
+  margin-bottom: 120px;
 }
 
-.list-items,.nav-item a{
-    list-style: none;
-    color: rgb(rgba(102, 100, 100, 0.484));
-}
-.list-items{
-    gap:50px;
+/* nav-ber-styles */
+.nav-ber {
+  justify-content: space-between;
 }
 
-.nav-link{
-    text-decoration: none;
-    
+.list-items,
+.nav-item a {
+  list-style: none;
+  color: rgb(rgba(102, 100, 100, 0.484));
+}
+.list-items {
+  gap: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
 }
 
 /* header section */
 .banner {
-    align-items: center;
+  align-items: center;
 }
 
-.header-title{
-    max-width: 570px;
-    margin: px;
+.header-title {
+  max-width: 570px;
+  margin: px;
 }
-.header-text{
-    font-size: 2.9rem;
-    font-weight: bold;
-}
-
-.header-p{
-    font-size: 1.1rem;
-    font-weight: 700;
+.header-text {
+  font-size: 2.9rem;
+  font-weight: bold;
 }
 
+.header-p {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 
 /* main section  */
-.plants{
-    font-size: 2.8rem;
-    font-weight: bold;
+.plants {
+  font-size: 2.8rem;
+  font-weight: bold;
 }
-.plants-text{
-    font-weight: 700;
-    max-width: 620px;
-    margin: 0 auto;
+.plants-text {
+  font-weight: 700;
+  max-width: 620px;
+  margin: 0 auto;
 }
-.our-plants{
-    text-align: center;
-}
-
-.show-plants{
-    width: 270px;
-    text-align: center;
-    margin-top: 50px;
-}
-.plant-price{
-    margin-top: 20px;
+.our-plants {
+  text-align: center;
 }
 
-.name{
-    font-size: 1.2rem;
-    font-weight: 700;
+.show-plants {
+  width: 270px;
+  text-align: center;
+  margin-top: 50px;
 }
-.price{
-    font-size: 1.6rem;
-    font-weight: bold;
+.plant-price {
+  margin-top: 20px;
 }
-.plants-abba{
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+
+.name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.price {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.plants-abba {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 
 /* section2 */
 
-.list-000{
-     list-style:disc;
-     
-
+.list-000 {
+  list-style: disc;
 }
-.shop-item{
-    width: 540px;
-    /* margin: 0 auto; */
-    gap: 2rem;
+.shop-item {
+  width: 540px;
+  /* margin: 0 auto; */
+  gap: 2rem;
 }
-.shop-img{
-    margin-right: 4rem;
+.shop-img {
+  margin-right: 4rem;
 }
-.flower01{
-    justify-content:space-between;
-    margin-top: 210px; 
-
+.flower01 {
+  justify-content: space-between;
+  margin-top: 210px;
 }
-.item-head{
-    font-size: 2rem;
-    font-weight: bold;
-   
+.item-head {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-.list-000-li{
-    width:540px ;
-    margin: 50px;
-    gap: 20px;
+.list-000-li {
+  width: 540px;
+  margin: 50px;
+  gap: 20px;
+}
+
+/* section 3 */
+
+.offer {
+  text-align: center;
+}
+.offer-heading {
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.offer-text {
+  width: 888px;
+  margin: 0 auto;
+}
+.bg-1 {
+  background-image: url(../assets/deal-bloom.png);
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 367px;
+  height: 201px;
+  border-radius: 10px;
+}
+
+.bg-2 {
+  background-image: url(../assets/deal-ana.png);
+  background-repeat: no-repeat; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+ 
+  width: 367px;
+  height: 201px;
+  border-radius: 10px;
+}
+
+.bg-3 {
+  background-image: url(../assets/deal-zabo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  text-align: center;
+ 
+
+  width: 753px;
+  height: 423px;
+  border-radius: 10px;
+}
+.bg-0 {
+  display: flex;
+}
+.b {
+  /* border: 5px solid palegreen; */
+  margin-top: 25px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  justify-content: center;
+  margin-right: 25px;
+  border-radius: 10px;
+ 
+}
+.b a {
+  color: white;
+}
+
+
+.joint-bunch{
+    
 }
