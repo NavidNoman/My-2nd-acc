@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 
-.text-color-h1 {
+.text-style-h1 {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
   font-weight: auto;
@@ -9,7 +9,7 @@
   font-variation-settings:
     "wdth" 100;
 }
-.text-color-p {
+.text-style-p {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
@@ -33,6 +33,14 @@
 .max-width{
     max-width: 1140px;
     margin: 0 auto;
+}
+.btn{
+    border: 2px solid salmon;
+    padding: 20px 50px;
+    width: 270px;
+    background-color:rgba(233, 90, 8, 1) ;
+    color: white;
+    margin-top: 1.5rem;
 }
 .top120{
     margin-bottom: 120px; 
@@ -76,3 +84,43 @@
     font-size: 1.1rem;
     font-weight: 700;
 }
+
+
+/* main section  */
+.plants{
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+.plants-text{
+    font-weight: 700;
+    max-width: 620px;
+    margin: 0 auto;
+}
+.our-plants{
+    text-align: center;
+}
+
+.show-plants{
+    width: 270px;
+    text-align: center;
+    margin-top: 50px;
+}
+.plant-price{
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.price{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.plants-abba{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+/* section2 */
