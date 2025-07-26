@@ -124,3 +124,33 @@
 }
 
 /* section2 */
+
+.list-000{
+     list-style:disc;
+     
+
+}
+.shop-item{
+    width: 540px;
+    /* margin: 0 auto; */
+    gap: 2rem;
+}
+.shop-img{
+    margin-right: 4rem;
+}
+.flower01{
+    justify-content:space-between;
+    margin-top: 210px; 
+
+}
+.item-head{
+    font-size: 2rem;
+    font-weight: bold;
+   
+}
+
+.list-000-li{
+    width:540px ;
+    margin: 50px;
+    gap: 20px;
+}
